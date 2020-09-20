@@ -1,0 +1,40 @@
+{
+    "alkane": ["Methane", "Ethane", "Propane", "Butane", "Pentane", "Hexane", "Heptane", "Octane", "Nonane", "Decane"],
+
+    "cyclo_alkane": ["Cyclopropane", "Cyclobutane", "Cyclopentane", "Cyclohexane", "Cycloheptane", "Cyclooctane", "Cyclononane", "Cyclodecane"],
+    
+    "alkene": ["Ethene", "Propene", "Butene", "But-2-ene", "Pentene", "Pent-2-ene", "Hexene", "Hex-2-ene", "Hex-3-ene", 
+        "Heptene", "Hept-2-ene", "Hept-3-ene", 
+        "Octene", "Oct-2-ene", "Oct-3-ene", "Oct-4-ene", 
+        "Nonene", "Non-2-ene", "Non-3-ene", "Non-4-ene",
+        "Decene", "Dec-2-ene", "Dec-3-ene", "Dec-4-ene", "Dec-5-ene"
+    ],
+
+    "dialkene": ["Propadiene", "Buta-1,2-diene", "Buta-1,3-diene", "Penta-1,2-diene", "Penta-1,3-diene", "Penta-1,4-diene", "Penta-2,3-diene",
+        "Hexa-1,2-diene", "Hexa-1,3-diene", "Hexa-1,4-diene", "Hexa-1,5-diene", "Hexa-2,3-diene", "Hexa-2,4-diene",
+        "Hepta-1,2-diene", "Hepta-1,3-diene", "Hepta-1,4-diene", "Hepta-1,5-diene", "Hepta-1,6-diene", "Hepta-2,3-diene", "Hepta-2,4-diene", "Hepta-2,5-diene", "Hepta-3,4-diene",
+        "Octa-1,2-diene", "Octa-1,3-diene", "Octa-1,4-diene", "Octa-1,5-diene", "Octa-1,6-diene", "Octa-2,3-diene", "Octa-2,4-diene", "Octa-2,5-diene",
+        "Octa-2,6-diene", "Octa-3,4-diene", "Octa-3,5-diene",
+        "Nona-1,2-diene","Nona-1,3-diene", "Nona-1,4-diene", "Nona-1,5-diene", "Nona-1,6-diene","Nona-1,7-diene", "Nona-1,8-diene", "Nona-2,3-diene",
+        "Nona-2,4-diene", "Nona-2,5-diene","Nona-2,6-diene", "Nona-2,7-diene", "Nona-3,4-diene", "Nona-3,5-diene", "Nona-3,6-diene", "Nona-4,5-diene",
+        "Deca-1,2-diene", "Deca-1,3-diene", "Deca-1,4-diene", "Deca-1,5-diene", "Deca-1,6-diene", "Deca-1,7-diene", "Deca-1,8-diene", "Deca-1,9-diene",
+        "Deca-2,3-diene", "Deca-2,4-diene", "Deca-2,5-diene", "Deca-2,6-diene", "Deca-2,7-diene", "Deca-2,8-diene", "Deca-3,4-diene", "Deca-3,5-diene",
+        "Deca-3,6-diene", "Deca-3,7-diene", "Deca-4,5-diene", "Deca-4,6-diene"
+    ],
+    
+    "cyclo_alkene": ["Cyclopropene", "Cyclobutene", "Cyclopentene", "Cyclohexene", "Cycloheptene", "Cyclooctene", "Cyclononene", "Cyclodecene"],
+
+
+    "alkyne": ["Ethyne", "Propyne", "Butyne", "Pentyne", "Hexyne", "Heptyne", "Octyne", "Nonyne", "Decyne"],
+
+    "dialkyne": ["Buta-1,3-diyne", "Penta-1,3-diyne", "Penta-1,4-diyne", "Hexa-1,3-diyne", "Hexa-1,4-diyne", "Hexa-1,5-diyne","Hexa-2,4-diyne",
+        "Hepta-1,3-diyne", "Hepta-1,4-diyne", "Hepta-1,5-diyne", "Hepta-1,6-diyne", "Hepta-2,4-diyne", "Hepta-2,5-diyne",
+        "Octa-1,3-diyne", "Octa-1,4-diyne", "Octa-1,5-diyne", "Octa-1,6-diyne","Octa-2,4-diyne", "Octa-2,5-diyne", "Octa-2,6-diyne", "Octa-3,5-diyne",
+        "Nona-1,3-diyne", "Nona-1,4-diyne", "Nona-1,5-diyne", "Nona-1,6-diyne", "Nona-1,7-diyne", "Nona-1,8-diyne", "Nona-2,4-diyne", "Nona-2,5-diyne",
+        "Nona-2,6-diyne", "Nona-2,7-diyne", "Nona-3,5-diyne", "Nona-3,6-diyne", 
+        "Deca-1,3-diyne", "Deca-1,4-diyne", "Deca-1,5-diyne", "Deca-1,6-diyne","Deca-1,7-diyne", "Deca-1,8-diyne", "Deca-1,9-diyne", "Deca-2,4-diyne",
+        "Deca-2,5-diyne", "Deca-2,6-diyne", "Deca-2,7-diyne", "Deca-2,8-diyne", "Deca-3,5-diyne", "Deca-3,6-diyne", "Deca-3,7-diyne", "Deca-4,6-diyne"
+    ],
+
+    "cyclo_alkyne": ["Cyclopropyne", "Cyclobutyne", "Cyclopentyne", "Cyclohexyne", "Cycloheptyne", "Cyclooctyne", "Cyclononyne", "Cyclodecyne"]
+}
