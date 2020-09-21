@@ -1,2 +1,5 @@
 .vscode
-/files/test.json
+Word_Segmentation/files/test.json
+.gitignore~
+..gitignore.un~
+
