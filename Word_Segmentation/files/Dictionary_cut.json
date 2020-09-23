@@ -1,8 +1,24 @@
 {
     "alkane": ["Meth|ane", "Eth|ane", "Prop|ane", "But|ane", "Pent|ane", "Hex|ane", "Hept|ane", "Oct|ane", "Non|ane", "Dec|ane"],
 
+    "alkane_alkyl": ["2|-|meth|yl|hex|ane", "4|-|eth|yl|oct|ane", "2|-|meth|yl|hex|ane", "4|-|eth|yl|hept|ane", "4|-|eth|yl|-|2|-|meth|yl|hex|ane",
+        "2|,|2|,|3|-|tri|meth|yl|pent|ane", "2|-|bromo|-|5|-|chloro|hex|ane", "3|-|eth|yl|-|2|-|meth|yl|hex|ane", "2|-|chloro|hex|ane", "3|-|bromo|hex|ane", 
+        "3|-|bromo|hept|ane", "3|,|3|-|di|meth|yl|hex|ane", "2|-|meth|yl|pent|ane", "3|,|3|,|5|-|tri|meth|yl|oct|ane", "4|-|eth|yl|-|3|,|4|-|di|meth|yl|hept|ane",
+        "chloro|eth|ane" , "4|-|prop|yl|oct|ane", "3|-|eth|yl|-|3|-|meth|yl|hex|ane", "2|,|2|-|di|meth|yl|-|3|-|prop|yl|oct|ane", "3|,|3|,|4|,|5|-|tetra|meth|yl|dec|ane",
+        "3|,|3|,|4|-|tri|bromo|non|ane", "3|-|eth|yl|-|2|,|4|,|5|-|tri|meth|yl|hex|ane", "3|,|7|-|di|meth|yl|non|ane", "3|,|5|,|7|-|tri|meth|yl|dec|ane", 
+        "2|,|2|-|di|meth|yl|pent|ane", "5|-|eth|yl|-|3|,|4|-|di|meth|yl|non|ane", "2|,|2|,|4|,|4|-|tetra|meth|yl|hex|ane", "2|,|2|,|5|-|tri|meth|yl|hex|ane",
+        "2|-|bromo|-|4|-|chloro|pent|ane", "1|,|3|-|di|cyclo|hex|yl|prop|ane"
+    ],
+
     "cyclo_alkane": ["Cyclo|prop|ane", "Cyclo|but|ane", "Cyclo|pent|ane", "Cyclo|hex|ane", "Cyclo|hept|ane", "Cyclo|oct|ane", "Cyclo|non|ane", "Cyclo|dec|ane"],
     
+    "cyclo_alkane_alkyl": ["Meth|yl|cyclo|pent|ane", "Bromo|hex|ane", "Cyclo|prop|yl|but|ane", "1|-|bromo|-|4|-|meth|yl|cyclo|hex|ane",
+        "1|-|eth|yl|-|2|-|meth|yl|cyclo|pent|ane", "1|-|bromo|-|3|-|eth|yl|-|4|-|meth|yl|hex|ane", "1|-|eth|yl|-|4|,|4|-|di|meth|yl|cyclo|hex|ane",
+        "1|,|3|,|5|-|tri|fluoro|cyclo|hept|ane", "1|,|1|-|di|eth|yl|cyclo|hex|ane", "Meth|yl|cyclo|pent|ane", "1|-|eth|yl|-|3|-|prop|yl|cyclo|hex|ane",
+        "2|-|cyclo|but|yl|pent|ane", "2|-|eth|yl|-|1|,|4|-|di|meth|yl|cyclo|hept|ane", "1|,|2|-|di|meth|yl|cyclo|pent|ane",
+        "3|-|cyclo|pent|yl|-|2|,|5|-|di|meth|yl|hex|ane", "1|,|2|,|3|-|tri|meth|yl|cyclo|but|ane", "1|,|3|-|di|chloro|cyclo|hex|ane"
+    ],
+
     "alkene": [
         "Eth|ene", "Prop|ene", "But|ene", "But|-|2|-|ene", "Pent|ene", "Pent|-|2|-|ene", "Hex|ene", "Hex|-|2|-|ene", "Hex|-|3|-|ene",
         "Hept|ene", "Hept|-|2|-ene", "Hept|-|3|-|ene", "Oct|ene", "Oct|-|2|-|ene", "Oct|-|3|-|ene", "Oct|-|4|-|ene",
@@ -10,6 +26,13 @@
         "Dec|ene", "Dec|-|2|-|ene", "Dec|-|3|-|ene", "Dec|-|4|-|ene", "Dec|-|5|-|ene"
     ],
     
+    "alkene_alkyl": ["3|-|meth|yl|pen|-|2|-|ene", "4|-|prop|yl|non|-|3|-|ene", "4|-|bromo|-|3|-|meth|yl|pen|-|2|-|ene", 
+        "3|-|chloro|-|2|-|meth|yl|oct|-|4|-|ene", "5|-|eth|yl|-|2|-|meth|yl|hept|-|2|-|ene","2|-|meth|yl|hept|a|-|1|,|5|-|di|ene",
+        "3|-|meth|yl|hex|-|2|-|ene", "3|-|prop|yl|hept|-|2|-|ene", "4|-|eth|yl|-|2|,|5|-|di|eth|yl|oct|-|3|-|ene", "2|-|meth|yl|but|ene",
+        "4|-|eth|yl|-|4|,|5|-|di|meth|yl|hex|ene", "3|-|eth|yl|hex|-|2|-|ene", "3|-|iso|propyl|-|3|,|4|-|di|meth|yl|hex|ene",
+        "2|-|eth|yl|-|3|-|meth|yl|pent|ene", "3|,|4|-|di|chloro|hex|-|3|-|ene"
+    ],
+
     "dialkene": [
         "Prop|a|di|ene", "But|a|-|1|,|2|-|di|ene", "But|a|-|1|,|3|-|di|ene",
         "Pent|a|-|1|,|2|-|di|ene", "Pent|a|-|1|,|3|-|di|ene", "Pent|a|-|1|,|4|-|di|ene", "Pent|a|-|2|,|3|-|di|ene",
@@ -29,7 +52,15 @@
 
     "cyclo_alkene": ["Cyclo|prop|ene", "Cyclo|but|ene", "Cyclo|pent|ene", "Cyclo|hex|ene", "Cyclo|hept|ene", "Cyclo|oct|ene", "Cyclo|non|ene", "Cyclo|dec|ene"],
 
+    "cyclo_alkene_alkyl": ["4|-|meth|yl|cyclo|hex|ene", "3|-|eth|yl|-|4|-|meth|yl|pent|ene", "3|,|4|-|di|meth|yl|cyclo|hex|ene"],
+
     "alkyne": ["Eth|yne", "Prop|yne", "But|yne", "Pent|yne", "Hex|yne", "Hept|yne", "Oct|yne", "Non|yne", "Dec|yne"],
+
+    "alkyne_alkyl": ["4|-|meth|yl|pen|-|2|-|yne", "3|-|bromo|-|2|-|meth|yl|oct|-|4|-|yne", "4|-|meth|yl|pent|-|2|-|yne",
+        "2|,|5|,|7|-|tri|meth|yl|non|-|3|-|yne", "3|,|5|-|di|meth|yl|-|3|,|4|,|7|,|8|-|tetra|meth|yl|-|5|-|prop|yl|dec|-|1|-|yne",
+        "5|-|eth|yl|-|4|-|meth|yl|-|hept|-|2|-|yne", "4|,|4|,|6|-|tri|meth|yl|hept|yne","5|-|eth|yl|oct|-|2|-|yne",
+        "5|-|(|bromo|propyl|)|-|8|-|iso|prop|yl|dec|-|2|-|yne"
+    ],
 
     "dialkyne": [
         "But|a|-|1|,|3|-|di|yne", "Pent|a|-|1|,|3|-|di|yne", "Pent|a|-|1|,|4|-|di|yne",
@@ -44,6 +75,8 @@
         "Dec|a|-|2|,|6|-|di|yne", "Dec|a|-|2|,|7|-|di|yne", "Dec|a|-|2|,|8|-|di|yne", "Dec|a|-|3|,|5|-|di|yne", "Dec|a|-|3|,|6|-|di|yne", 
         "Dec|a|-|3|,|7|-|di|yne", "Dec|a|-|4|,|6|-|di|yne"
     ],
+    
 
     "cyclo_alkyne": ["Cyclo|prop|yne", "Cyclo|but|yne", "Cyclo|pent|yne", "Cyclo|hex|yne", "Cyclo|hept|yne", "Cyclo|oct|yne", "Cyclo|non|yne", "Cyclo|dec|yne"]
+
 }
