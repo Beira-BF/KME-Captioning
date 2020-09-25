@@ -59,7 +59,7 @@
     "alkyne_alkyl": ["4|-|meth|yl|pen|-|2|-|yne", "3|-|bromo|-|2|-|meth|yl|oct|-|4|-|yne", "4|-|meth|yl|pent|-|2|-|yne",
         "2|,|5|,|7|-|tri|meth|yl|non|-|3|-|yne", "3|,|5|-|di|meth|yl|-|3|,|4|,|7|,|8|-|tetra|meth|yl|-|5|-|prop|yl|dec|-|1|-|yne",
         "5|-|eth|yl|-|4|-|meth|yl|-|hept|-|2|-|yne", "4|,|4|,|6|-|tri|meth|yl|hept|yne","5|-|eth|yl|oct|-|2|-|yne",
-        "5|-|(|bromo|propyl|)|-|8|-|iso|prop|yl|dec|-|2|-|yne"
+        "5|-|(|bromo|prop|yl|)|-|8|-|iso|prop|yl|dec|-|2|-|yne"
     ],
 
     "dialkyne": [
