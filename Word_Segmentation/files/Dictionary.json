@@ -1,5 +1,5 @@
 {
-    "alkane": ["Methane", "Ethane", "Propane", "Butane", "Pentane", "Hexane", "Heptane", "Octane", "Nonane", "Decane"],
+    "alkane": ["methane", "ethane", "propane", "butane", "pentane", "hexane", "heptane", "octane", "nonane", "decane"],
 
     "alkane_alkyl": ["2-methylhexane", "4-ethyloctane", "2-methylhexane", "4-ethylheptane", "4-ethyl-2-methylhexane",
         "2,2,3-trimethylpentane", "2-bromo-5-chlorohexane", "3-ethyl-2-methylhexane", "2-chlorohexane", "3-bromohexane", "3-bromoheptane",
@@ -9,19 +9,19 @@
         "2,2,5-trimethylhexane", "2-bromo-4-chloropentane", "1,3-dicyclohexylpropane"
     ],
 
-    "cyclo_alkane": ["Cyclopropane", "Cyclobutane", "Cyclopentane", "Cyclohexane", "Cycloheptane", "Cyclooctane", "Cyclononane", "Cyclodecane"],
+    "cyclo_alkane": ["cyclopropane", "cyclobutane", "cyclopentane", "cyclohexane", "cycloheptane", "cyclooctane", "cyclononane", "cyclodecane"],
     
-    "cyclo_alkane_alkyl": ["Methylcyclopentane", "Bromohexane", "Cyclopropylbutane", "1-bromo-4-methylcyclohexane", "1-ethyl-2-methylcyclopentane",
+    "cyclo_alkane_alkyl": ["methylcyclopentane", "bromohexane", "cyclopropylbutane", "1-bromo-4-methylcyclohexane", "1-ethyl-2-methylcyclopentane",
         "1-bromo-3-ethyl-4-methylhexane", "1-ethyl-4,4-dimethylcyclohexane", "1,3,5-trifluorocycloheptane", "1,1-diethylcyclohexane", "methylcyclopentane",
         "1-ethyl-3-propylcyclohexane", "2-cyclobutylpentane", "2-ethyl-1,4-dimethylcycloheptane", "1,2-dimethylcyclopentane", 
         "3-cyclopentyl-2,5-dimethylhexane", "1,2,3-trimethylcyclobutane", "1,3-dichlorocyclohexane"
     ],
 
-    "alkene": ["Ethene", "Propene", "Butene", "But-2-ene", "Pentene", "Pent-2-ene", "Hexene", "Hex-2-ene", "Hex-3-ene", 
-        "Heptene", "Hept-2-ene", "Hept-3-ene", 
-        "Octene", "Oct-2-ene", "Oct-3-ene", "Oct-4-ene", 
-        "Nonene", "Non-2-ene", "Non-3-ene", "Non-4-ene",
-        "Decene", "Dec-2-ene", "Dec-3-ene", "Dec-4-ene", "Dec-5-ene"
+    "alkene": ["ethene", "propene", "butene", "but-2-ene", "pentene", "pent-2-ene", "hexene", "hex-2-ene", "hex-3-ene", 
+        "heptene", "hept-2-ene", "hept-3-ene", 
+        "octene", "oct-2-ene", "oct-3-ene", "oct-4-ene", 
+        "nonene", "non-2-ene", "non-3-ene", "non-4-ene",
+        "decene", "dec-2-ene", "dec-3-ene", "dec-4-ene", "dec-5-ene"
     ],
 
     "alkene_alkyl": ["3-methylpen-2-ene", "4-propylnon-3-ene", "4-bromo-3-methylpen-2-ene", "3-chloro-2-methyloct-4-ene", "5-ethyl-2-methylhept-2-ene",
@@ -29,39 +29,133 @@
         "4-ethyl-4,5-dimethylhexene", "3-ethylhex-2-ene", "3-isopropyl-3,4-dimethylhexene", "2-ethyl-3-methylpentene", "3,4-dichlorohex-3-ene"
     ],
 
-    "dialkene": ["Propadiene", "Buta-1,2-diene", "Buta-1,3-diene", "Penta-1,2-diene", "Penta-1,3-diene", "Penta-1,4-diene", "Penta-2,3-diene",
-        "Hexa-1,2-diene", "Hexa-1,3-diene", "Hexa-1,4-diene", "Hexa-1,5-diene", "Hexa-2,3-diene", "Hexa-2,4-diene",
-        "Hepta-1,2-diene", "Hepta-1,3-diene", "Hepta-1,4-diene", "Hepta-1,5-diene", "Hepta-1,6-diene", "Hepta-2,3-diene", "Hepta-2,4-diene", "Hepta-2,5-diene", "Hepta-3,4-diene",
-        "Octa-1,2-diene", "Octa-1,3-diene", "Octa-1,4-diene", "Octa-1,5-diene", "Octa-1,6-diene", "Octa-2,3-diene", "Octa-2,4-diene", "Octa-2,5-diene",
-        "Octa-2,6-diene", "Octa-3,4-diene", "Octa-3,5-diene",
-        "Nona-1,2-diene","Nona-1,3-diene", "Nona-1,4-diene", "Nona-1,5-diene", "Nona-1,6-diene","Nona-1,7-diene", "Nona-1,8-diene", "Nona-2,3-diene",
-        "Nona-2,4-diene", "Nona-2,5-diene","Nona-2,6-diene", "Nona-2,7-diene", "Nona-3,4-diene", "Nona-3,5-diene", "Nona-3,6-diene", "Nona-4,5-diene",
-        "Deca-1,2-diene", "Deca-1,3-diene", "Deca-1,4-diene", "Deca-1,5-diene", "Deca-1,6-diene", "Deca-1,7-diene", "Deca-1,8-diene", "Deca-1,9-diene",
-        "Deca-2,3-diene", "Deca-2,4-diene", "Deca-2,5-diene", "Deca-2,6-diene", "Deca-2,7-diene", "Deca-2,8-diene", "Deca-3,4-diene", "Deca-3,5-diene",
-        "Deca-3,6-diene", "Deca-3,7-diene", "Deca-4,5-diene", "Deca-4,6-diene"
+    "dialkene": ["propadiene", "buta-1,2-diene", "buta-1,3-diene", "penta-1,2-diene", "penta-1,3-diene", "penta-1,4-diene", "penta-2,3-diene",
+        "hexa-1,2-diene", "hexa-1,3-diene", "hexa-1,4-diene", "hexa-1,5-diene", "hexa-2,3-diene", "hexa-2,4-diene",
+        "hepta-1,2-diene", "hepta-1,3-diene", "hepta-1,4-diene", "hepta-1,5-diene", "hepta-1,6-diene", "hepta-2,3-diene", "hepta-2,4-diene", "hepta-2,5-diene", "hepta-3,4-diene",
+        "octa-1,2-diene", "octa-1,3-diene", "octa-1,4-diene", "octa-1,5-diene", "octa-1,6-diene", "octa-2,3-diene", "octa-2,4-diene", "octa-2,5-diene",
+        "octa-2,6-diene", "octa-3,4-diene", "octa-3,5-diene",
+        "nona-1,2-diene", "nona-1,3-diene", "nona-1,4-diene", "nona-1,5-diene", "nona-1,6-diene", "nona-1,7-diene", "nona-1,8-diene", "nona-2,3-diene",
+        "nona-2,4-diene", "nona-2,5-diene", "nona-2,6-diene", "nona-2,7-diene", "nona-3,4-diene", "nona-3,5-diene", "nona-3,6-diene", "nona-4,5-diene",
+        "deca-1,2-diene", "deca-1,3-diene", "deca-1,4-diene", "deca-1,5-diene", "deca-1,6-diene", "deca-1,7-diene", "deca-1,8-diene", "deca-1,9-diene",
+        "deca-2,3-diene", "deca-2,4-diene", "deca-2,5-diene", "deca-2,6-diene", "deca-2,7-diene", "deca-2,8-diene", "deca-3,4-diene", "deca-3,5-diene",
+        "deca-3,6-diene", "deca-3,7-diene", "deca-4,5-diene", "deca-4,6-diene"
     ],
     
-    "cyclo_alkene": ["Cyclopropene", "Cyclobutene", "Cyclopentene", "Cyclohexene", "Cycloheptene", "Cyclooctene", "Cyclononene", "Cyclodecene"],
+    "cyclo_alkene": ["cyclopropene", "cyclobutene", "cyclopentene", "cyclohexene", "cycloheptene", "cyclooctene", "cyclononene", "cyclodecene"],
 
     "cyclo_alkene_alkyl": ["4-methylcyclohexene", "3-ethyl-4-methylpentene", "3,4-dimethylcyclohexene"],
 
-    "alkyne": ["Ethyne", "Propyne", "Butyne", "Pentyne", "Hexyne", "Heptyne", "Octyne", "Nonyne", "Decyne"],
+    "alkyne": ["ethyne", "propyne", "butyne", "pentyne", "hexyne", "heptyne", "octyne", "nonyne", "decyne"],
 
     "alkyne_alkyl": ["4-methylpen-2-yne", "3-bromo-2-methyloct-4-yne", "4-methylpent-2-yne", "2,5,7-trimethylnon-3-yne",
         "3,5-dimethyl-3,4,7,8-tetramethyl-5-propyldec-1-yne", "5-ethyl-4-methyl-hept-2-yne", "4,4,6-trimethylheptyne",
         "5-ethyloct-2-yne", "5-(bromopropyl)-8-isopropyldec-2-yne"
     ],
 
-    "dialkyne": ["Buta-1,3-diyne", "Penta-1,3-diyne", "Penta-1,4-diyne", "Hexa-1,3-diyne", "Hexa-1,4-diyne", "Hexa-1,5-diyne","Hexa-2,4-diyne",
-        "Hepta-1,3-diyne", "Hepta-1,4-diyne", "Hepta-1,5-diyne", "Hepta-1,6-diyne", "Hepta-2,4-diyne", "Hepta-2,5-diyne",
-        "Octa-1,3-diyne", "Octa-1,4-diyne", "Octa-1,5-diyne", "Octa-1,6-diyne","Octa-2,4-diyne", "Octa-2,5-diyne", "Octa-2,6-diyne", "Octa-3,5-diyne",
-        "Nona-1,3-diyne", "Nona-1,4-diyne", "Nona-1,5-diyne", "Nona-1,6-diyne", "Nona-1,7-diyne", "Nona-1,8-diyne", "Nona-2,4-diyne", "Nona-2,5-diyne",
-        "Nona-2,6-diyne", "Nona-2,7-diyne", "Nona-3,5-diyne", "Nona-3,6-diyne", 
-        "Deca-1,3-diyne", "Deca-1,4-diyne", "Deca-1,5-diyne", "Deca-1,6-diyne","Deca-1,7-diyne", "Deca-1,8-diyne", "Deca-1,9-diyne", "Deca-2,4-diyne",
-        "Deca-2,5-diyne", "Deca-2,6-diyne", "Deca-2,7-diyne", "Deca-2,8-diyne", "Deca-3,5-diyne", "Deca-3,6-diyne", "Deca-3,7-diyne", "Deca-4,6-diyne"
+    "dialkyne": ["buta-1,3-diyne", "penta-1,3-diyne", "penta-1,4-diyne", "hexa-1,3-diyne", "hexa-1,4-diyne", "hexa-1,5-diyne","hexa-2,4-diyne",
+        "hepta-1,3-diyne", "hepta-1,4-diyne", "hepta-1,5-diyne", "hepta-1,6-diyne", "hepta-2,4-diyne", "hepta-2,5-diyne",
+        "octa-1,3-diyne", "octa-1,4-diyne", "octa-1,5-diyne", "octa-1,6-diyne","octa-2,4-diyne", "octa-2,5-diyne", "octa-2,6-diyne", "octa-3,5-diyne",
+        "nona-1,3-diyne", "nona-1,4-diyne", "nona-1,5-diyne", "nona-1,6-diyne", "nona-1,7-diyne", "nona-1,8-diyne", "nona-2,4-diyne", "nona-2,5-diyne",
+        "nona-2,6-diyne", "nona-2,7-diyne", "nona-3,5-diyne", "nona-3,6-diyne", 
+        "deca-1,3-diyne", "deca-1,4-diyne", "deca-1,5-diyne", "deca-1,6-diyne","deca-1,7-diyne", "deca-1,8-diyne", "deca-1,9-diyne", "deca-2,4-diyne",
+        "deca-2,5-diyne", "deca-2,6-diyne", "deca-2,7-diyne", "deca-2,8-diyne", "deca-3,5-diyne", "deca-3,6-diyne", "deca-3,7-diyne", "deca-4,6-diyne"
     ],
 
-    "cyclo_alkyne": ["Cyclopropyne", "Cyclobutyne", "Cyclopentyne", "Cyclohexyne", "Cycloheptyne", "Cyclooctyne", "Cyclononyne", "Cyclodecyne"]
+    "cyclo_alkyne": ["cyclopropyne", "cyclobutyne", "cyclopentyne", "cyclohexyne", "cycloheptyne", "cyclooctyne", "cyclononyne", "cyclodecyne"],
 
+    "benzene": ["benzene", "chlorobenzene", "nitrobenzene", "methylbenzene", "hydroxybenzene", "aminobenzene", "ortho-dimethylbenzene", "o-dimethylbenzene", 
+        "meta-dimethylbenzene", "m-dimethylbenzene", "para-dimethylbenzene", "p-dimethylbenzene"],
 
+    "benzene_alkyl": ["4-bromo-1,2-dichlorobenzene", "1-ethyl-2-methylbenzene", "2-ethyl-1,4-dimethylbenzene","1,3,5-trimethylbenzene",
+        "1,4-dinitrobenzene", "2-hydroxy-1,3-dimethylbenzene", "1-propyl-4-methylbenzene", "1-bromo-2,4-dimethylbenzene",
+        "1,3-dimethyl-4-methyl-2-propylbenzene", "bromobenzene", "isopropylbenzene", "p-diethylbenzene", "para-diethylbenzene",
+        "m-difluorobenzene", "meta-difluorobenzene", "2,6-di-tert-butylaniline", "1,2,4-trimethylbenzene",
+        "1-ethyl-2-methylbenzene"
+    ],
+
+    "benzyl_phenyl": ["3-phenyloctane", "4-benzylnonane", "4-benzyl-3-methyl-5-phenyloctane", "3-methyl-4-phenyloctane"],
+
+    "alcohol": ["4,5-dimethylhexan-3-ol", "3,5,7-trimethyloctan-3-ol", "butanol", "octan-2-ol", "cyclohexanol", "2-cyclohexylethanol",
+        "cyclobutane-1,2-diol", "cyclooctane-1,3,4-triol", "ethane-1,2-diol", "propane-1,2,3-triol","hexane-1,2,3,4,5,6-hexol",
+        "propanol", "butan-2-ol", "2-methylpropan-2-ol", "3-methylbutanol", "pentan-3-ol", "3-methylpentan-3-ol",
+        "2,3,6-trimethylhexan-3-ol", "3-methylcyclohexanol", "2-ethyl-5-methylcyclohexanol", "3,4-dimethylcyclopentanol",
+        "7-bromo-4-ethyloctan-2-ol", "4-chloro-3-ethylcyclohexanol", "hexan-3-ol", "3-methylhexanol", "butan-2-ol",
+        "hexane-2,4-diol", "4-methylpentane-2,3-diol", "3-bromopropanol", "4,4-dimethylpentan-2-ol", "4-methylcyclohexanol",
+        "1-bromo-5,5-dimethylheptan-3-ol", "2-ethylpentanol", "4-chlorobutan-2-ol", "7-isopropyloctan-3-ol", "hexane-1,2,3,4,5-pentol"
+    ],
+
+    "ether": ["methoxybutane", "methoxy-2,2-dimethylpropane", "ethoxymethylpropane", "methoxy-1,2-dimethylpropane",
+        "1,2-dimethoxyethane", "3-methoxypropane", "2-methoxy-2-methylpropane", "3-ethoxyheptane", "4-methoxyoctane",
+        "ethoxyethane", "methoxypentane", "ethoxy-4-chlorohexane", "isopropoxy-3-methylbutane", "propoxybutane",
+        "isopropoxymethylpentane", "ethoxy-3-methylpentane", "3-methoxypentane", "ethoxybenzene", "tert-butoxybenzene",
+        "ethoxypentane", "3-ethoxy-6-ethyloctane"
+    ],
+
+    "aldehyde": ["butanal", "3-methylbutanal", "4-hydroxy-3-methylpentanal", "cyclopentanecarbaldehyde", "cyclopentanecarboxaldehyde",
+        "5-chloro-4-ethylhexanal", "3-methylcyclopentanecarbaldehyde", "cyclohex-3-enecarbaldehyde", "3-ethyl-6-methyloctanal",
+        "5-ethyl-2,4-dimethylcyclohexanecarbaldehyde", "5-ethyl-2,4-dimethylcyclohexanecarboxaldehyde", "2,6-dimethylhept-5-enal",
+        "cyclohexanecarbaldehyde", "cyclohexanecarboxaldehyde", "3-methylcyclopentanecarbaldehyde", "3-methylcyclopentanecarboxaldehyde",
+        "5-chloropentanal", "4-(4-hydroxy-4-methylpentyl)cyclohex-3-enecarbaldehyde", "2-methylcyclohex-3-enecarbaldehyde",
+        "3-ethylhexanal", "3,7-dimethylocta-2,6-dienal", "4-bromobenzaldehyde", "p-nitrobenzaldehyde", "para-nitrobenzaldehyde",
+        "meta-nitrobenzaldehyde", "m-nitrobenzaldehyde", "o-nitrobenzaldehyde", "ortho-nitrobenzaldehyde", "2-chloro-5-isopropylbenzaldehyde",
+        "cycloheptanecarbaldehyde", "non|an|al", "2-propoxycyclopentene", "propoxypentane"
+    ],
+
+    "ketone": ["propan-2-one", "pentan-3-one", "3-methylbutan-2-one", "5-methylhexan-2-one", "3,3-dimethylbutan-2-one",
+        "5,6-dichloroheptan-3-one", "2,2-dimethylphenylpropanone", "4-phenylhexan-3-one", "5-methylhex-3-en-2-one", "non-8-yn-4-one",
+        "3-chlorocyclopentanone", "hexanone", "cyclobutanone", "2,2-dimethylcyclohexanone", "5-phenyloctan-2-one", "4-benzylnonan-5-one",
+        "4,4-dimethylhexan-3-one", "3-bromocyclohexanone", "butane-2,3-dione", "1-phenylethanone", "2-chloroheptan-4-one",
+        "3,4,4,5-tetramethylcyclohexa-2,5-dienone", "3,4-dihydroxycyclobut-3-ene-1,2-dione"
+    ],
+
+    "carboxylic_acid": ["2,4-dimethylhexanoic acid", "5,8-dimethyloctanoic acid", "hexa-2,4-dienoic acid", "octa-6-ynoicacid",
+        "cyclohexanecarboxylic acid", "cyclohexanoic acid", "1,2-cyclohexanedicarboxylic acid", "3-cyclohexenecarboxylic acid", "bezenecarboxylic acid",
+        "benzoic acid", "benzenedicarboxylic acid", "2-hydroxybezenecarboxylic acid", "2-hydroxybenzoic acid", "napthalenecarboxylic acid",
+        "napthalene-2-carboxylic acid", "methanoic acid", "propanoic acid", "butanoic acid", "hexanoic acid", "octanoic acid", "3-methylbutanoic acid",
+        "3-methyloctanoic acid", "3-bromohexanoic acid", "5-chlorohexanoic acid", "3-methoxybutanoic acid", "prop-2-enoic acid",
+        "cyclopent-3-enecarboxylic acid", "cycloheptanoic acid", "cycloheptanecarboxylic acid", "3-methylcyclohept-3-enecarboxylic acid",
+        "dec-9-enoic acid", "4,5-dimethylhexanoic acid", "4-methoxybenzoic acid", "4-methoxybenzenecarboxylic acid",
+        "5,6-dichloro-3-ethylheptanoic acid", "3-bromocyclohex-3-enoic acid", "2-butylpentanedioic acid", "5-phenylhexanoic acid",
+        "ortho-formylbenzoic acid", "o-formylbenzoic acid", "ortho-methanoylbenzoic acid", "o-methanoylbenzoic acid",
+        "2-ethyl-3,4-dimethylpentanoic acid", "4-aminocyclohex-3-enoic acid","2-hydroxybenzoic acid", "7-methoxy-2-oxooct-5-enoic acid"
+    ],
+
+    "ester": ["ethyl butanoate", "methyl butanoate", "butyl pentanoate", "butyl ethanoate", "pentyl propanoate", "methyl methanoate",
+        "methyl ethanoate", "ethyl ethanoate", "ethyl propanoate", "ethyl 2-methylbutanoate", "isopropyl 2,3-dimethylbutanoate",
+        "benzyl ethanoate", "phenyl benzoate", "benzyl benzoate", "ethyl cyclohexanecarboxylate", "ethyl cyclohexanoate",
+        "propyl 2,3-dimethylpentanoate"
+    ],
+
+    "amide": ["methanamide", "ethanamide", "propanamide", "butanamide", "5-chloro-3-ethylheptanamide", "N-ethylbutanamide", "N-ethyl-N-methylbutanamide",
+        "cyclopentanecarboxamide", "cyclopentanamide", "3,4-dichlorocyclohexanamide", "3,4-dichlorocyclohexanecarboxamide", "4-methylcyclohexanamide",
+        "4-methylcyclohexanecarboxamide", "2-methylpropanamide", "N,N-dimethyl-2-methylpropanamide", "5-ethyl-2-methyloctanamide", "4-carbamoyl-2-methylbenzoic acid",
+        "3-formylcyclohexenamide", "3-formylcyclohexenecarboxamide", "N-cyclohexylpropanamide", "N-ethyl-N-methyl-2,3-dimethylbutanamide", "N-ethyl-2,4-dimethyl-3-methylpentanamide",
+        "N-ethyl-N-isobutylcyclohexamide", "N-ethyl-N-isobutylcyclohexanecarboxamide", "N-ethyl-N-methyl-3-ethyl-2,3-dimethylhexanamide"
+    ],
+
+    "amine": ["methanamine", "ethanamine", "propan-2-amine", "N-methylethanamine", "N,N-dimethylmethanamine", "propanamine", "butan-2-amine", "pentan-3-amine",
+        "hexan-3-amine", "2-ethyl-2-methylbutanamine", "2,2,3-dimethylhexanamine", "3-ethyl-2,3-dimethylpentane-1,2-diamine", "3-ethyl-3-isopropylpentanamine",
+        "4-methylpentane-2,3-diamine", "3-ethylheptane-2,4,5-triamine", "N-methylmethanamine", "N-methylethanamine", "N-ethyl-2-methylpropanamine",
+        "N-ethylpentan-3-amine", "N-isopropylbutan-2-amine", "N-butyl-4,5-dimethylheptan-3-amine", "N-ethyl-N-isopropylheptan-3-amine"
+    ],
+
+    "mixed": ["3-(3,4-dihydroxyphenyl)prop-2-enoic acid", "(2-hydroxy-4-octoxyphenyl)-phenylmethanone", "2-amino-4-(2-aminophenyl)-4-oxobutanoic acid",
+        "2-methoxycarbonylbenzoic acid", "2-(carboxymethyl)benzoic acid", "3-(3,4-dihydroxyphenyl)prop-2-enoic acid", "3-(4-hydroxyphenyl)-2-oxopropanoic acid",
+        "2-phenylpropanedioic acid", "4-(carboxymethyl)benzoic acid", "2-hydroxy-3-(4-hydroxyphenyl)prop-2-enoic acid", "5-acetyl-2-hydroxybenzoic acid",
+        "3-acetyloxybenzoic acid", "methyl 3-formyl-4-hydroxybenzoate", "4-hydroxy-5-methoxybenzene-1,3-dicarbaldehyde", "3-(2,3-dihydroxyphenyl)prop-2-enoic acid",
+        "2-formyl-5-methoxybenzoic acid", "3-(3,5-dihydroxyphenyl)prop-2-enoic acid", "2-(4-methoxyphenyl)-2-oxoacetic acid", "5-(bromopropyl)-8-isopropyldec-2-yne",
+        "5-methylbenzene-1,3-dicarboxylic acid", "4-formyl-2-methoxybenzoic acid", "(4-hydroxyphenyl) 2-oxopropanoate", "methyl 2-formyl-3-hydroxybenzoate",
+        "hexen-3-ol", "hex-4-en-1-ol", "hex-4-en-3-ol", "1,2,2-trimethylcyclopropan-1-ol", "2,3-dimethylbut-3-en-2-ol", "benzaldehyde",
+        "1-(4-tert-butyl-2,6-dimethyl-3,5-dinitrophenyl)ethanone", "dicyclohexylmethanone", "1-(4-hydroxyphenyl)-2-phenylethanone", "1-cyclohexylethanone", "cyclohexylethanone",
+        "(2-chlorophenyl)-cyclopentylmethanone", "but-3-en-2-one", "1-(1-methylcyclopropyl)ethanone", "(methylcyclopropyl)ethanone", "N-methyloxan-4-amine", "oxan-3-amine",
+        "4-methyloxan-4-amine", "N,N-diethylprop-2-yn-1-amine", "N,N-diethylprop-2-ynamine", "N-methyl-3-phenylpropan-1-amine", "N-methyl-3-phenylpropanamine",
+        "2-methylbut-3-yn-2-amine", "tert-butyl 3-but-3-enoxypropanoate", "ethane-1,2-diamine", "propa-1,2-diene", "prop-2-en-1-amine", "prop-2-enamine", "prop-2-en-1-ol",
+        "prop-2-enol", "prop-2-enamine", "N-methylprop-2-enamine", "but-3-enamine", "prop-2-enal", "pent-4-enol", "N-ethylprop-2-enamine", "3-chloroprop-2-enol",
+        "3-bromoprop-2-enol", "3-iodoprop-2-enol", "2-methylprop-2-enamine", "but-3-enal", "3-bromo-2-methylpropene", "1-ethoxyprop-1-ene", "ethoxypropene",
+        "N,N-dimethylprop-2-en-1-amine", "N,N-dimethylprop-2-enamine", "2-methylbut-3-enol", "hex-5-en-1-amine", "hex-5-enamine", "2-fluoroprop-2-en-1-ol",
+        "2-fluoroprop-2-enol", "4-chlorobut-2-enamine", "propane-1,3-diol", "2-propan-2-yloxybutane", "3-(2-methoxyethoxy)propanamine", "(hydroxymethylamino)oxy-methoxymethanol",
+        "2-propan-2-yloxybutane", "ethenoxymethoxyethene", "diethoxymethoxyethane", "2-(propan-2-yloxymethoxy)propane", "2-propan-2-yloxypropanol", "3-prop-2-enoxypropanol",
+        "isopropyloctan-3-ol", "7-isopropyloctan-3-ol"
+    ]
+    
 }
