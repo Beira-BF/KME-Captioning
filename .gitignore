@@ -2,4 +2,4 @@
 Word_Segmentation/files/test.json
 .gitignore~
 ..gitignore.un~
-
+Word_Segmentation/__pycache__
