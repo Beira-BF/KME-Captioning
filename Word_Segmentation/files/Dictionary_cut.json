@@ -78,7 +78,7 @@
     
     "cyclo_alkyne": ["cyclo|prop|yne", "cyclo|but|yne", "cyclo|pent|yne", "cyclo|hex|yne", "cyclo|hept|yne", "cyclo|oct|yne", "cyclo|non|yne", "cyclo|dec|yne"],
 
-    "benz|ene": ["benz|ene", "chloro|benz|ene", "nitro|benz|ene", "meth|yl|benz|ene", "hydroxy|benz|ene", "amino|benz|ene", "ortho|-|di|meth|yl|benz|ene",
+    "benzene": ["benz|ene", "chloro|benz|ene", "nitro|benz|ene", "meth|yl|benz|ene", "hydroxy|benz|ene", "amino|benz|ene", "ortho|-|di|meth|yl|benz|ene",
         "o|-|di|meth|yl|benz|ene", "meta|-|di|meth|yl|benz|ene", "m|-|di|meth|yl|benz|ene", "para|-|di|meth|yl|benz|ene", "p|-|di|meth|yl|benz|ene"],
 
     "benzene_alkyl": ["4|-|bromo|-|1|,|2|-|di|chloro|benz|ene", "1|-|eth|yl|-|2|-|meth|yl|benz|ene", "2|-|eth|yl|-|1|,|4|-|di|meth|yl|benz|ene",
@@ -166,7 +166,7 @@
         "3|-|(|2|,|3|-|di|hydroxy|phen|yl|)|prop|-|2|-|en|oic acid", "2|-|form|yl|-|5|-|meth|oxy|benz|oic acid", "3|-|(|3|,|5|-|di|hydroxy|phen|yl|)|prop|-|2|-|en|oic acid",
         "2|-|(|4|-|meth|oxy|phen|yl|)|-|2|-|oxo|acet|ic acid", "5|-|(|bromo|prop|yl|)|-|8|-|isoprop|yl|dec|-|2|-|yne", "5|-|meth|yl|benz|ene|-|1|,|3|-|di|carboxylic acid",
         "4|-|form|yl|-|2|-|meth|oxy|benz|oic acid", "(|4|-|hydroxy|phen|yl|)| |2|-|oxo|prop|an|oate", "meth|yl| |2|-|form|yl|-|3|-|hydroxy|benz|oate", "hex|en|-|3|-|ol",
-        "hex|-|4|-|en|ol", "hex|-|4|-|en|-|3|-|ol", "1|,|2|,|2|-|tri|meth|yl|cyclo|prop|an|-|1|-|ol", "2|,|3|-|di|meth|yl|but|-|3|-|en|-|2|-|ol", "benz|aldehyde",
+        "hex|-|4|-|en|-|1|-|ol", "hex|-|4|-|en|-|3|-|ol", "1|,|2|,|2|-|tri|meth|yl|cyclo|prop|an|-|1|-|ol", "2|,|3|-|di|meth|yl|but|-|3|-|en|-|2|-|ol", "benz|aldehyde",
         "1|-|(|4|-|tert|-|but|yl|-|2|,|6|-|di|meth|yl|-|3|,|5|-|di|nitro|phen|yl|)|eth|an|one", "di|cyclo|hex|yl|meth|an|one", "1|-|(|4|-|hydroxy|phen|yl|)|-|2|-|phen|yl|eth|an|one",
         "1|-|cyclo|hex|yl|eth|an|one", "cyclo|hex|yl|eth|an|one", "(|2|-|chloro|phen|yl|)|-|cyclo|pent|yl|meth|an|one", "but|-|3|-|en|-|2|-|one", "1|-|(|1|-|meth|yl|cyclo|prop|yl)|eth|an|one",
         "(|meth|yl|cyclo|prop|yl|)|eth|an|one", "N|-|meth|yl|oxan|-|4|-|amine", "oxan|-|3|-|amine", "4|-|meth|yl|oxan|-|4|-|amine", "N|,|N|-|di|eth|yl|prop|-|2|-|yn|-|1|-|amine",

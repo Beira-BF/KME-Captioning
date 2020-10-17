@@ -1,5 +1,4 @@
 import tensorflow as tf
-import json
 import numpy as np
 import os
 import requests
@@ -8,16 +7,40 @@ class Segmentation():
     def __init__(self):
         url = 'https://firebasestorage.googleapis.com/v0/b/ysc-kme-25095.appspot.com/o/best_model.hdf5?alt=media&token=124965a7-56ae-43c8-ac90-b99220dde13d'
         r = requests.get(url, allow_redirects=True)
-        with open('my_model.hdf5', 'wb') as f_hdf5, open('files/vocab.json', 'r') as f_json:
+        with open('my_model.hdf5', 'wb') as f_hdf5, requests.Session() as req:
             f_hdf5.write(r.content)
-            self.CHAR_INDICES = json.load(f_json)
+
+            resp = req.get('https://firebasestorage.googleapis.com/v0/b/ysc-kme-25095.appspot.com/o/vocab.json?alt=media&token=34178ef2-9e62-491f-9fc5-bf2e30a33635')
+            self.CHAR_INDICES = resp.json()
         
         self.model = tf.keras.models.load_model('my_model.hdf5')
         os.remove('my_model.hdf5')            
         
         self.look_back = 5
         
+    def create_dataset(self, text):
+        """
+        take text with label (text that being defined where to cut ('|')) 
+        and encode text and make label
+        return preprocessed text & preprocessed label
+        """
+        X, y = [], []
+        text = '|' + text
+        data = [self.CHAR_INDICES['<pad>']] * self.look_back
+        for i in range(1, len(text)):
+            current_char = text[i]
+            before_char = text[i-1]
 
+            if current_char == '|':
+                continue
+            data = data[1:] + [self.CHAR_INDICES[current_char]]  # X data
+
+            target = 1 if before_char == '|' else 0  # y data
+            X.append(data)
+            y.append(target)
+        
+        return np.array(X), tf.one_hot(y, 2)
+        
     def preprocessing_text(self, raw_text):
         """
         take unseen (testing) text and encode it with CHAR_DICT

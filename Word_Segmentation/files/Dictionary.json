@@ -108,7 +108,7 @@
         "3,4,4,5-tetramethylcyclohexa-2,5-dienone", "3,4-dihydroxycyclobut-3-ene-1,2-dione"
     ],
 
-    "carboxylic_acid": ["2,4-dimethylhexanoic acid", "5,8-dimethyloctanoic acid", "hexa-2,4-dienoic acid", "octa-6-ynoicacid",
+    "carboxylic_acid": ["2,4-dimethylhexanoic acid", "5,8-dimethyloctanoic acid", "hexa-2,4-dienoic acid", "octa-6-ynoic acid",
         "cyclohexanecarboxylic acid", "cyclohexanoic acid", "1,2-cyclohexanedicarboxylic acid", "3-cyclohexenecarboxylic acid", "bezenecarboxylic acid",
         "benzoic acid", "benzenedicarboxylic acid", "2-hydroxybezenecarboxylic acid", "2-hydroxybenzoic acid", "napthalenecarboxylic acid",
         "napthalene-2-carboxylic acid", "methanoic acid", "propanoic acid", "butanoic acid", "hexanoic acid", "octanoic acid", "3-methylbutanoic acid",
@@ -130,7 +130,7 @@
         "cyclopentanecarboxamide", "cyclopentanamide", "3,4-dichlorocyclohexanamide", "3,4-dichlorocyclohexanecarboxamide", "4-methylcyclohexanamide",
         "4-methylcyclohexanecarboxamide", "2-methylpropanamide", "N,N-dimethyl-2-methylpropanamide", "5-ethyl-2-methyloctanamide", "4-carbamoyl-2-methylbenzoic acid",
         "3-formylcyclohexenamide", "3-formylcyclohexenecarboxamide", "N-cyclohexylpropanamide", "N-ethyl-N-methyl-2,3-dimethylbutanamide", "N-ethyl-2,4-dimethyl-3-methylpentanamide",
-        "N-ethyl-N-isobutylcyclohexamide", "N-ethyl-N-isobutylcyclohexanecarboxamide", "N-ethyl-N-methyl-3-ethyl-2,3-dimethylhexanamide"
+        "N-ethyl-N-isobutylcyclohexanamide", "N-ethyl-N-isobutylcyclohexanecarboxamide", "N-ethyl-N-methyl-3-ethyl-2,3-dimethylhexanamide"
     ],
 
     "amine": ["methanamine", "ethanamine", "propan-2-amine", "N-methylethanamine", "N,N-dimethylmethanamine", "propanamine", "butan-2-amine", "pentan-3-amine",
