@@ -7,7 +7,14 @@
         "chloro|eth|ane", "4|-|prop|yl|oct|ane", "3|-|eth|yl|-|3|-|meth|yl|hex|ane", "4|-|tert|-|but|yl|non|ane", "3|,|3|,|4|,|5|-|tetra|meth|yl|dec|ane",
         "3|-|eth|yl|-|2|,|4|,|5|-|tri|meth|yl|hex|ane", "3|,|7|-|di|meth|yl|non|ane", "3|,|5|,|7|-|tri|meth|yl|dec|ane", 
         "2|,|2|-|di|meth|yl|pent|ane", "5|-|eth|yl|-|3|,|4|-|di|meth|yl|non|ane", "2|,|2|,|4|,|4|-|tetra|meth|yl|hex|ane", "2|,|2|,|5|-|tri|meth|yl|hex|ane",
-        "2|-|bromo|-|4|-|chloro|pent|ane", "1|,|3|-|di|cyclo|hex|yl|prop|ane"
+        "2|-|bromo|-|4|-|chloro|pent|ane", "1|,|3|-|di|cyclo|hex|yl|prop|ane", "3|,|3|-|di|meth|yl|pent|ane", "2|,|3|-|di|meth|yl|pent|ane",
+        "2|,|3|-|di|meth|yl|hex|ane", "3|-|meth|yl|hex|ane", "2|,|4|-|di|meth|yl|hex|ane", "2|,|2|-|di|meth|yl|hex|ane", "3|-|eth|yl|pent|ane", "3|-|eth|yl|hex|ane",
+        "3|-|eth|yl|-|3|-|meth|yl|pent|ane", "3|-|eth|yl|-|2|,|4|-|di|meth|yl|pent|ane", "2|,|3|,|5|-|tri|meth|yl|hex|ane", "3|-|bromo|pent|ane", "3|-|eth|yl|-|4|-|meth|yl|hex|ane", "3|,|4|-|di|meth|yl|hex|ane",
+        "3|-|eth|yl|-|2|-|meth|yl|pent|ane", "2|,|3|,|4|-|tri|meth|yl|hex|ane", "3|,|4|-|di|meth|yl|hept|ane", "3|,|3|-|di|eth|yl|pent|ane", "3|-|eth|yl|-|2|,|2|-|di|meth|yl|pent|ane", "3|-|eth|yl|-|2|,|3|-|di|meth|yl|pent|ane",
+        "1|,|2|,|2|,|3|-|tetra|bromo|prop|ane", "3|-|iodo|pent|ane", "1|,|2|,|2|-|tri|bromo|but|ane", "1|,|2|,|2|-|tri|bromo|prop|ane", "3|-|bromo|-|3|-|meth|yl|pent|ane", "1|,|2|,|3|-|tri|bromo|-|2|-|meth|yl|prop|ane",
+        "3|-|eth|yl|-|3|-|meth|yl|hept|ane", "2|,|2|-|di|bromo|but|ane", "3|-|eth|yl|-|2|,|3|-|di|meth|yl|hex|ane", "4|-|eth|yl|-|2|,|4|-|di|meth|yl|hex|ane", "2|,|3|,|4|,|4|-|tetra|meth|yl|hex|ane",
+        "3|,|3|-|di|eth|yl|-|2|-|meth|yl|pent|ane", "3|-|eth|yl|-|2|,|2|,|3|-|tri|meth|yl|pent|ane", "3|-|eth|yl|-|2|,|3|,|4|-|tri|meth|yl|pent|ane", "3|-|eth|yl|-|2|,|4|-|di|meth|yl|hex|ane", "3|-|iodo|-|3|-|meth|yl|pent|ane",
+        "1|,|3|-|di|bromo|-|2|-|(|bromo|meth|yl|)|-|2|-|meth|yl|prop|ane", "3|-|bromo|-|3|-|(|bromo|meth|yl|)|pent|ane", "3|-|eth|yl|-|3|-|fluoro|pent|ane", "1|,|1|,|1|-|tri|bromo|prop|ane"
     ],
 
     "cyclo_alkane": ["cyclo|prop|ane", "cyclo|but|ane", "cyclo|pent|ane", "cyclo|hex|ane", "cyclo|hept|ane", "cyclo|oct|ane", "cyclo|non|ane", "cyclo|dec|ane"],
@@ -32,7 +39,22 @@
         "3|-|meth|yl|hex|-|2|-|ene", "2|-|meth|yl|but|ene",
         "3|-|eth|yl|hex|-|2|-|ene", "3|,|4|-|di|meth|yl|-|3|-|prop|an|-|2|-|yl|hex|-|1|-|ene",
         "2|-|eth|yl|-|3|-|meth|yl|pent|-|1|-|ene", "3|,|4|-|di|chloro|hex|-|3|-|ene", "3|-|eth|yl|-|4|-|meth|yl|pent|-|1|-|ene",
-        "4|-|bromo|-|2|-|meth|yl|but|-|1|-|ene"
+        "4|-|bromo|-|2|-|meth|yl|but|-|1|-|ene", "2|,|3|,|3|-|tri|meth|yl|pent|ane", "3|-|meth|yl|hex|-|1|-|ene", "3|,|3|-|di|meth|yl|pent|-|1|-|ene", "4|-|meth|yl|hex|-|1|-|ene",
+        "3|-|eth|yl|pent|-|1|-|ene", "3|-|meth|yl|hept|-|1|-|ene", "3|,|4|-|di|meth|yl|pent|-|1|-|ene", "2|,|3|-|di|meth|yl|pent|-|2|-|ene", "3|,|3|,|5|-|tri|meth|yl|hex|-|1|-|ene",
+        "4|,|5|-|di|meth|yl|hex|-|1|-|ene", "3|,|4|,|5|-|tri|meth|yl|hex|-|1-|ene", "3|-|meth|yl|pent|a|-|1|,|4|-|di|ene", "5|-|meth|yl|hex|-|1|-|ene", "2|-|(|bromo|meth|yl|)|but|a|-|1|,|3|-|di|ene",
+        "3|,|5|,|5|-|tri|meth|yl|hex|-|1|-|ene", "5|-|meth|yl|hept|-|1|-|ene", "3|-|eth|yl|hex|-|1|-|ene", "4|-|eth|yl|hex|-|1|-|ene", "2|,|4|-|di|meth|yl|hept|-|1|-|ene", "3|,|3|-|di|meth|yl|pent|a|-|1|,|4|-|di|ene",
+        "3|-|meth|yl|hex|a|-|1|,|5|-|di|ene", "3|,|3|-|di|meth|yl|hex|-|1|-|ene", "3|,|4|-|di|meth|yl|idene|hex|a|-|1|,|5|-|di|ene", "1|,|2|,|3|-|tri|(|prop|an|-|2|-|yl|idene|)|cyclo|prop|ane",
+        "3|-|eth|yl|-|2|-|meth|yl|pent|-|1|-|ene", "3|-|eth|yl|-|2|-|meth|yl|pent|-|2|-|ene", "3|-|bromo|but|-|1|-|ene", "3|-|eth|en|yl|pent|a|-|1|,|4|-|di|ene", "1|,|1|-|bis|(|meth|yl|sulfan|yl|)|eth|ene",
+        "2|,|4|,|4|-|tri|meth|yl|hex|-|1|-|ene", "3|-|eth|en|yl|-|4|-|meth|yl|pent|a|-|1|,|3|-|di|ene", "2|-|eth|yl|sulfan|yl|-|3|-|meth|yl|but|-|1|-|ene", "2|-|eth|yl|sulfan|yl|but|-|1|-|ene",
+        "1|,|1|-|di|bromo|-|2|-|meth|yl|prop|-|1|-|ene", "4|-|meth|yl|hept|-|1|-|ene", "2|,|4|-|di|meth|yl|hex|-|2|-|ene", "2|,|4|-|di|meth|yl|hex|-|1|-|ene", "3|,|3|-|di|meth|yl|hex|a|-|1|,|5|-|di|ene",
+        "3|,|4|-|di|meth|yl|hex|a|-|1|,|5|-|di|ene", "3|-|bromo|pent|-|1|-|ene", "3|,|3|,|4|-|tri|meth|yl|pent|-|1|-|ene", "3|,|4|,|4|-|tri|meth|yl|pent|-|1|-|ene", "3|,|5|-|di|meth|yl|hex|-|1|-|ene",
+        "4|-|meth|yl|oct|a|-|1|,|7|-|di|ene", "3|,|5|-|di|meth|yl|hept|a|-|1|,|6|-|di|ene", "2|,|5|,|5|-|tri|meth|yl|hept|a|-|1|,|6|-|di|ene", "3|,|4|-|di|meth|yl|oct|-|1|-|ene", "2|,|4|-|di|meth|yl|hex|a|-|1|,|5|-|di|ene",
+        "5|-|bromo|-|4|,|4|-|di|meth|yl|pent|-|1|-|ene", "3|-|eth|en|yl|hex|-|1|-|ene", "3|-|eth|yl|-|4|,|5|-|di|meth|yl|hex|a|-|1|,|4|-|di|ene", "2|,|4|,|4|-|tri|meth|yl|pent|-|2|-|ene", "1|-|chloro|-|3|-|meth|yl|but|-|2|-|ene",
+        "3|,|3|-|di|meth|yl|but|-|1|-|ene", "2|,|3|-|di|meth|yl|but|-|2|-|ene", "2|,|3|,|4|-|tri|meth|yl|pent|-|2|-|ene", "2|-|meth|yl|pent|-|2|-|ene", "2|,|4|-|di|meth|yl|pent|-|2|-|ene", "2|-|meth|yl|hept|-|2|-|ene",
+        "4|-|meth|yl|pent|-|1|-|ene", "4|,|4|-|di|meth|yl|pent|-|1|-|ene", "4|-|meth|yl|pent|a|-|1|,|3|-|di|ene", "2|,|5|-|di|meth|yl|hex|-|2|-|ene", "1|-|bromo|-|3|-|meth|yl|but|-|2|-|ene",
+        "3|,|5|-|di|chloro|-|2|,|4|,|4|-|tri|meth|yl|pent|-|2|-|ene", "3|-|chloro|-|3|-|meth|yl|but|-|1|-|ene", "6|-|meth|yl|hept|a|-|1|,|5|-|di|ene", "3|-|eth|yl|hex|-|3|-|ene", "4|-|bromo|pent|-|1|-|ene",
+        "2|,|7|-|di|meth|yl|oct|a|-|2|,|6|-|di|ene", "2|-|bromo|-|3|-|meth|yl|but|-|2|-|ene", "2|,|6|-|di|meth|yl|hept|a|-|2|,|5|-|di|ene", "2|,|5|,|5|-|tri|meth|yl|hex|-|2|-|ene", "3|,|3|,|5|-|tri|meth|yl|hex|a|-|1|,|4|-|di|ene"
+
     ],
 
     "dialkene": [
@@ -102,7 +124,13 @@
         "2|-|eth|yl|-|5|-|meth|yl|cyclo|hex|an|-|1|-|ol", "2|,|4|-|di|meth|yl|cyclo|pent|an|ol", "4|-|chloro|-|3|-|eth|yl|phen|ol",
         "hex|an|-|3|-|ol", "3|-|meth|yl|hex|an|ol", "but|an|-|2|-|ol", "hex|ane|-|2|,|4|-|di|ol", "4|-|meth|yl|pent|ane|-|2|,|3|-|di|ol", "3|-|bromo|prop|an|ol",
         "4|,|4|-|di|meth|yl|pent|an|-|2|-|ol", "4|-|meth|yl|cyclo|hex|an|ol", "6|-|bromo|-|2|,|2|-|di|meth|yl|hept|an|-|3|-|ol", "2|-|eth|yl|hex|an|ol",
-        "4|-|chloro|but|an|-|2|-|ol", "hex|ane|-|1|,|2|,|3|,|4|,|5|-|pent|ol", "4|-|eth|yl|-|2|-|oct|an|ol", "benz|ene|-|1|,|3|,|5|-|tri|ol"
+        "4|-|chloro|but|an|-|2|-|ol", "hex|ane|-|1|,|2|,|3|,|4|,|5|-|pent|ol", "4|-|eth|yl|-|2|-|oct|an|ol", "benz|ene|-|1|,|3|,|5|-|tri|ol", "2|-|meth|yl|prop|an|-|1|-|ol",
+        "2|-|chloro|prop|an|-|1|-|ol", "1|,|3|-|di|chloro|prop|an|-|2|-|ol", "cyclo|pent|an|ol", "2|-|(|di|eth|yl|amino|)|eth|an|ol", "prop|-|2|-|yn|-|1|-|ol", "but|ane|-|1|,|3|-|di|ol",
+        "1|-|meth|oxy|prop|an|-|2|-|ol", "2|-|(|di|meth|yl|amino|)|eth|an|ol", "4|-|meth|yl|pent|an|-|2|-ol", "hex|-|3|-|yn|-|2|-|ol", "2|-|meth|oxy|eth|an|ol", "2|-|eth|oxy|eth|an|ol",
+        "4|-|meth|oxy|but|an|-|1|-|ol", "3|-|eth|oxy|prop|an|-|1|-|ol", "4|-|eth|oxy|but|an|-|1|-|ol", "2|-|meth|yl|but|-|3|-|yn|-|2|-|ol", "2|-|fluoro|eth|an|ol", "4|-|fluoro|but|an|-|1|-|ol",
+        "2|-|(|2|-|fluoro|eth|oxy|)|eth|an|ol", "6|-|fluoro|hex|an|-|1|-|ol", "1|,|1|,|1|-|tri|fluoro|prop|an|-|2|-|ol", "2|,|2|,|3|,|3|,|3|-|penta|fluoro|prop|an|-|1|-|ol", "3|,|3|-|di|meth|yl|but|an|-|2|-|ol",
+        "2|-|chloro|prop|ane|-|1|,|3|-|di|ol", "2|-|meth|yl|prop|-|2|-|en|-|1|-|ol", "hex|-|3|-|en|-|1|-|ol", "3|-|meth|yl|but|-|2|-|en|-|1|-|ol", "3|-|chloro|but|an|-|2|-|ol", "2|-|meth|yl|cyclo|hex|an|-|1|-|ol",
+        "2|-|meth|yl|pent|an|-|2|-|ol", "1|-|meth|yl|cyclo|hex|an|-|1|-|ol", "but|-|3|-|en|-|2|-|ol", "2|,|2|-|di|chloro|eth|an|ol", "3|-|meth|yl|but|an|-|2|-|ol", "2|,|3|-|di|chloro|prop|an|-|1|-|ol"
     ],
 
     "ether": ["1|-|meth|oxy|but|ane", "1|-|meth|oxy|-|2|,|2|-|di|meth|yl|prop|ane", "1|-|eth|oxy|-|2|-|meth|yl|prop|ane", "1|-|meth|oxy|-|2|,|2|-|di|meth|yl|prop|ane",
@@ -116,7 +144,8 @@
         "3|-|(|eth|oxy|meth|yl|)|-|2|,|3|,|5|-|tri|meth|yl|hex|ane", "2|-|eth|oxy|-|3|-|eth|yl|pent|ane", "5|-|meth|oxy|-|2|,|4|-|di|meth|yl|hept|-|2|-|ene",
         "2|-|bromo|-|3|-|meth|oxy|hex|a|-|1|,|3|,|5|-|tri|ene", "5|-|meth|oxy|-|3|-|meth|yl|pent|-|2|-|ene", "4|-|meth|oxy|-|3|,|3|-|di|meth|yl|hex|ane",
         "1|-|but|-|2|-|en|-|2|-|yl|-|1|-|cyclo|prop|yl|oxy|cyclo|prop|ane", "3|-|eth|oxy|-|4|-|meth|yl|hex|-|2|-|ene", "3|-|prop|-|2|-|en|oxy|prop|-|1|-|ene",
-        "1|-|prop|-|2|-|en|oxy|prop|ane"
+        "1|-|prop|-|2|-|en|oxy|prop|ane", "1|-|deuterio|-|2|-|(|2|-|deuterio|eth|oxy|)|eth|ane", "2|-|(|2|-|fluoro|eth|oxy|)|prop|-|1|-|ene", "1|-|bromo|-|1|-|eth|en|oxy|eth|ene",
+        "1|-|(|chloro|meth|oxy|)|-|2|,|3|-|di|fluoro|prop|ane", "2|-|eth|en|oxy|-|3|-|fluoro|but|a|-|1|,|3|-|di|ene"
     ],
 
     "aldehyde": ["but|an|al", "3|-|meth|yl|but|an|al", "4|-|hydroxy|-|3|-|meth|yl|pent|an|al", "cyclo|pent|ane|carbaldehyde", "cyclo|pent|ane|carboxaldehyde",
@@ -126,7 +155,10 @@
         "5|-|chloro|pent|an|al", "4|-|(|4|-|hydroxy|-|4|-|meth|yl|pent|yl|)|cyclo|hex|-|3|-|ene|carbaldehyde", "2|-|meth|yl|cyclo|hex|-|3|-|ene|-|1|-|carbaldehyde",
         "3|-|eth|yl|hex|an|al", "3|,|7|-|di|meth|yl|oct|a|-|2|,|6|-|di|en|al", "4|-|bromo|benz|aldehyde", "p|-|nitro|benz|aldehyde", "para|-|nitro|benz|aldehyde",
         "meta|-|nitro|benz|aldehyde", "m|-|nitro|benz|aldehyde", "o|-|nitro|benz|aldehyde", "ortho|-|nitro|benz|aldehyde", "2|-|chloro|-|5|-|iso|prop|yl|benz|aldehyde",
-        "cyclo|hept|ane|carbaldehyde", "non|an|al"
+        "cyclo|hept|ane|carbaldehyde", "non|an|al", "pent|an|al", "hept|an|al", "6|-|fluoro|hex|an|al", "5|-|meth|yl|hex|an|al", "pent|-|4|-|en|al", "4|,|4|-|di|meth|yl|hex|an|al", "4|-|meth|yl|hex|an|al",
+        "5|,|5|-|di|meth|yl|hex|an|al", "hex|-|5|-|en|al", "2|-|meth|yl|idene|hex|an|al", "hex|ane|di|al", "2|,|2|-|di|meth|yl|pent|-|4|-|en|al", "2|-|meth|yl|hex|an|al", "6|-|meth|yl|hept|an|al", "2|-|chloro|hept|an|al",
+        "3|-|meth|yl|hept|an|al", "2|,|2|-|di|meth|yl|but|an|al", "3|-|meth|yl|hex|an|al", "4|-|iodo|but|an|al", "2|-|chloro|hex|an|al", "4|-|meth|yl|idene|hex|-|5|-|en|al", "hept|-|2|-|yn|al", "3|,|3|-|di|meth|yl|hex|an|al",
+        "2|-|bromo|-|2|-|meth|yl|prop|an|al", "6|-|chloro|hex|an|al", "3|,|3|-|di|meth|yl|pent|an|al"
     ],
 
     "ketone": ["prop|an|-|2|-|one", "pent|an|-|3|-|one", "3|-|meth|yl|but|an|-|2|-|one", "5|-|meth|yl|hex|an|-|2|-|one", "3|,|3|-|di|meth|yl|but|an|-|2|-|one",
@@ -134,22 +166,36 @@
         "non|-|8|-|yn|-|4|-|one", "3|-|chloro|cyclo|pent|an|one", "hex|an|one", "cyclo|but|an|one", "2|,|2|-|di|meth|yl|cyclo|hex|an|one", "4|-|phen|yl|oct|an|-|2|-|one",
         "4|-|benz|yl|non|an|-|5|-|one","4|,|4|-|di|meth|yl|hex|an|-|3|-|one", "3|-|bromo|cyclo|hex|an|one", "but|ane|-|2|,|3|-|di|one", "1|-|phen|yl|eth|an|one",
         "2|-|chloro|hept|an|-|4|-|one", "3|,|4|,4|,|5|-|tetra|meth|yl|cyclo|hex|a|-|2|,|5|-|di|en|-|1|-|one", "3|,|4|-|di|hydroxy|cyclo|but|-|3|-|ene|-|1|,|2|-|di|one",
-        "hex|an|-|3|-|one"
+        "hex|an|-|3|-|one", "2|-|meth|yl|-|5|-|prop|-|1|-|en|-|2|-|yl|cyclo|hex|-|2|-|en|-|1|-|one", "cyclo|hex|an|one", "cyclo|pent|an|one", "3|,|5|,|5|-|tri|meth|yl|cyclo|hex|-|3|-|en|-|1|-|one",
+        "2|-|meth|yl|-|5|-|prop|an|-|2|-|yl|cyclo|hex|a|-|2|,|5|-|di|ene|-|1|,|4|-|di|one", "2|-|meth|yl|-|5|-|prop|an|-|2|-|yl|cyclo|hex|an|-|1|-|one", "6|-|meth|yl|-|3|-|prop|an|-|2|-|yl|cyclo|hex|-|2|-|en|-|1|-|one",
+        "cyclo|hept|an|one", "cyclo|hept|a|-|2|,|4|,|6|-|tri|en|-|1|-|one", "2|-|meth|yl|cyclo|hex|an|-|1|-|one", "4|-|meth|yl|cyclo|hex|an|-|1|-|one", "3|-|meth|yl|cyclo|hex|an|-|1|-|one", "3|,|3|,|5|-|tri|meth|yl|cyclo|hex|an|-|1|-|one",
+        "cyclo|pent|-|2|-|en|-|1|-|one", "cyclo|hex|-|2|-|en|-|1|-|one", "2|,|3|-|di|meth|yl|cyclo|pent|-|2|-|en|-|1|-|one", "3|,|5|-|di|meth|yl|cyclo|hex|-|2|-|en|-|1|-|one", "3|-|meth|yl|cyclo|hex|-|2|-|en|-|1|-|one",
+        "3|-|meth|yl|cyclo|pent|an|-|1|-|one", "1|-|(|3|-|bromo|phen|yl|)|eth|an|one", "3|-|meth|yl|cyclo|pent|-|2|-|en|-|1|-|one", "2|,|6|-|di|meth|yl|cyclo|hex|an|-|1|-|one", "2|-|eth|yl|cyclo|hex|an|-|1|-|one",
+        "3|-|bromo|-|2|-|hydroxy|cyclo|hept|a|-|2|,|4|,|6|-|tri|en|-|1|-|one", "3|,|4|,|5|-|tri|meth|yl|cyclo|pent|-|2|-|en|-|1|-|one", "2|,|3|,|5|-|tri|meth|yl|cyclo|pent|-|2|-|en|-|1|-|one",
+        "2|-|meth|yl|-|3|-|prop|an|-|2|-|yl|cyclo|pent|an|-|1|-|one", "2|,|3|,|4|,|5|-|tetra|meth|yl|cyclo|pent|-|2|-|en|-|1|-|one", "3|-|eth|yl|-|2|-|hydroxy|cyclo|pent|-|2|-|en|-|1|-|one",
+        "2|-|hydroxy|-|2|-|meth|yl|-|3|-|oxo|but|an|oic acid", "3|-|meth|yl|-|2|-|oxo|pent|an|oic acid"
     ],
 
     "carboxylic_acid": ["2|,|4|-|di|meth|yl|hex|an|oic acid", "4|,|5|-|di|meth|yl|oct|an|oic acid", "3|,|5|-|di|meth|yl|oct|an|oic acid", "3|,|7|-|di|meth|yl|oct|an|oic acid",
-        "2|-|eth|yl|-|5|,|6|-|di|meth|yl|oct|an|oic acid", "hex|a|-|2|,|4|-|di|en|oic acid",
-        "oct|a|-|4|,|6|-|di|en|-|2|-|yn|oic acid", "cyclo|hex|ane|carboxylic acid", "cyclo|hex|an|oic acid", "1|,|2|-|cyclo|hex|ane|di|carboxylic acid",
-        "3|-|cyclo|hex|ene|carboxylic acid", "benz|oic acid",
-        "2|-|hydroxy|benz|oic acid", "meth|an|oic acid", "prop|an|oic acid",
+        "2|-|eth|yl|-|5|,|6|-|di|meth|yl|oct|an|oic acid", "hex|a|-|2|,|4|-|di|en|oic acid", "oct|a|-|4|,|6|-|di|en|-|2|-|yn|oic acid", "cyclo|hex|ane|carboxylic acid",
+        "cyclo|hex|an|oic acid", "1|,|2|-|cyclo|hex|ane|di|carboxylic acid", "3|-|cyclo|hex|ene|carboxylic acid", "benz|oic acid", "2|-|hydroxy|benz|oic acid", "meth|an|oic acid", "prop|an|oic acid",
         "but|an|oic acid", "hex|an|oic acid", "oct|an|oic acid", "3|-|meth|yl|but|an|oic acid", "3|-|meth|yl|oct|an|oic acid", "3|-|bromo|hex|an|oic acid",
-        "5|-|chloro|hex|an|oic acid", "3|-|meth|oxy|but|an|oic acid", "prop|-|2|-|en|oic acid", "cyclo|pent|-|3|-|ene|carboxylic acid",
-        "cyclo|hept|an|oic acid", "cyclo|hept|ane|carboxylic acid", "1|-|meth|yl|cyclo|pent|-|3|-|ene|carboxylic acid", "dec|-|9|-|en|oic acid",
-        "4|,|5|-|di|meth|yl|hex|an|oic acid", "4|-|meth|oxy|benz|oic acid",
-        "2|-|but|yl|pent|ane|di|oic acid", "5|-|phen|yl|hex|an|oic acid",
-        "o|-|formyl|benz|oic acid", "2|-|eth|yl|-|3|,|4|-|di|meth|yl|pent|an|oic acid",
-        "2|-|hydroxy|benzo|ic acid",
-        "3|-|meth|yl|cyclo|pent|-|3|-|ene|-|1|-|carboxylic acid", "4|-|meth|oxy|benz|oic acid", "2|,|3|-|di|chloro|-|2|-|eth|yl|hex|an|oic acid"
+        "5|-|chloro|hex|an|oic acid", "3|-|meth|oxy|but|an|oic acid", "prop|-|2|-|en|oic acid", "cyclo|pent|-|3|-|ene|carboxylic acid", "cyclo|hept|an|oic acid", "cyclo|hept|ane|carboxylic acid",
+        "1|-|meth|yl|cyclo|pent|-|3|-|ene|carboxylic acid", "dec|-|9|-|en|oic acid", "4|,|5|-|di|meth|yl|hex|an|oic acid", "4|-|meth|oxy|benz|oic acid", "2|-|but|yl|pent|ane|di|oic acid",
+        "5|-|phen|yl|hex|an|oic acid", "o|-|formyl|benz|oic acid", "2|-|eth|yl|-|3|,|4|-|di|meth|yl|pent|an|oic acid", "2|-|hydroxy|benzo|ic acid", "3|-|meth|yl|cyclo|pent|-|3|-|ene|-|1|-|carboxylic acid",
+        "4|-|meth|oxy|benz|oic acid", "2|,|3|-|di|chloro|-|2|-|eth|yl|hex|an|oic acid", "2|,|3|-|di|hydroxy|benz|oic acid", "2|-|amino|benzo|ic acid", "3|-|chloro|benz|oic acid", "2|,|4|-|di|hydroxy|benz|oic acid",
+        "3|,|6|-|di|chloro|-|2|-|meth|oxy|benz|oic acid", "2|,|5|-|di|hydroxy|benz|oic acid", "5|-|amino|-|2|-|hydroxy|benz|oic acid", "4|-|amino|-|2|-|hydroxy|benz|oic acid", "2|,|6|-|di|chloro|benz|oic acid",
+        "2|,|3|,|6|-|tri|chloro|benz|oic acid", "2|,|3|,|5|,|6|-|tetra|chloro|benz|oic acid", "2|,|4|,|6|-|tri|chloro|benz|oic acid", "2|,|3|-|di|chloro|benz|oic acid", "2|,|3|,|4|-|tri|chloro|benz|oic acid",
+        "2|,|5|-|di|chloro|benz|oic acid", "2|,|4|-|di|chloro|benz|oic acid", "2|-|hydroxy|-|4|-|meth|yl|benz|oic acid", "3|,|4|-|di|chloro|benz|oic acid", "4|-|chloro|benz|oic acid", "2|-|hydroxy|-|3|-|meth|yl|benz|oic acid",
+        "2|-|bromo|benz|oic acid", "2|-|iodo|benz|oic acid", "5|-|bromo|-|2|-|hydroxy|benz|oic acid","2|-|hydroxy|-|5|-|meth|yl|benz|oic acid", "2|,|4|-|di|meth|oxy|benz|oic acid", "3|-|meth|yl|benz|oic acid", "3|-|amino|benz|oic acid",
+        "3|-|hydroxy|benz|oic acid", "4|-|meth|yl|benz|oic acid", "2|-|meth|yl|benz|oic acid", "2|-|chloro|benz|oic acid", "2|-|hydroxy|-|5|-|iodo|benz|oic acid", "2|-|hydroxy|-|3|,|5|-|di|iodo|benz|oic acid",
+        "3|-|cyclo|pent|yl|prop|an|oic acid", "2|,|6|-|di|hydroxy|benz|oic acid", "3|,|5|-|di|chloro|-|2|-|hydroxy|benz|oic acid", "5|-|chloro|-|2|-|hydroxy|benz|oic acid", "2|,|2|,|3|,|3|,|4|,|4|,|4|-|hepta|fluoro|but|an|oic acid",
+        "2|-|meth|yl|pent|an|oic acid", "3|-|meth|yl|pent|an|oic acid", "3|-|cyclo|pent|yl|prop|an|oic acid", "2|-|amino|-|3|-|(|2|-|meth|yl|idene|cyclo|prop|yl|)|prop|an|oic acid", "7|-|fluoro|hept|an|oic acid",
+        "2|-|bromo|-|3|-|meth|yl|but|an|oic acid", "4|-|oxo|pent|an|oic acid", "4|-|amino|-|4|-|oxo|but|an|oic acid", "4|-|meth|yl|pent|an|oic acid", "3|,|3|-|di|meth|yl|but|an|oic acid", "4|,|4|-|di|meth|yl|pent|an|oic acid",
+        "3|-|chloro|but|an|oic acid", "2|,|3|,|3|-|tri|chloro|prop|-|2|-|en|oic acid", "2|,|2|-|di|chloro|but|an|oic acid", "2|,|3|-|di|meth|yl|but|an|oic acid", "2|-|meth|oxy|-|3|-|meth|yl|but|-|2|-|en|oic acid",
+        "4|-|(|di|eth|yl|amino|)|but|an|oic acid", "2|-|fluoro|-|3|-|hydroxy|but|an|oic acid", "2|-|chloro|-|2|-|meth|yl|but|an|oic acid", "3|-|(|di|chloro|amino|)|-|3|-|meth|yl|but|an|oic acid",
+        "2|,|2|,|3|,|4|,|4|-|penta|chloro|but|-|3|-|en|oic acid", "2|,|4|,|4|-|tri|chloro|-|3|-|(|di|chloro|meth|yl|)|but|-|2|-|en|oic acid", "4|,|4|-|di|chloro|-|3|-|(|di|chloro|meth|yl|)|but|-|2|-|en|oic acid",
+        "4|-|oxo|-|4|-|prop|an|-|2|-|yl|oxy|but|an|oic acid", "2|,|2|,|3|,|3|,|3|-|penta|fluoro|prop|an|oic acid"
     ],
 
     "ester": ["eth|yl| |but|an|oate", "meth|yl| |but|an|oate", "but|yl| |pent|an|oate", "but|yl| |eth|an|oate", "pent|yl| |prop|an|oate", "meth|yl| |meth|an|oate",
@@ -188,10 +234,22 @@
         "N|-|meth|yl|meth|an|amine",
         "N|-|eth|yl|pent|an|-|3|-|amine", "eth|ane|-|1|,|2|-|di|amine", "prop|an|-|1|-|amine", "3|,|3|,|3|-|tri|deuterio|prop|an|-|1|-|amine",
         "9|,|9|-|di|meth|yl|-|N|-|(|4|-|phen|yl|phen|yl|)|fluoren|-|2|-|amine", "2|,|3|-|di|hydro|-|1|,|4|-|benzo|dio|xin|-|6|-|amine",
-        "N|-|deuterio|prop|-|1|-|en|-|2|-|amine"
-    ],
-
-    
+        "N|-|deuterio|prop|-|1|-|en|-|2|-|amine", "N|-|(|prop|an|-|2|-|yl|idene|amino|)|thio|hydroxyl|amine", "N|-|chloro|-|1|-|meth|oxy|meth|an|amine",
+        "N|-|iodo|-|N|-|(|prop|an|-|2|-|yl|idene|amino|)|meth|an|amine", "N|-|[|(|sulfan|yl|amino|)|meth|oxy|meth|yl|]|thio|hydroxyl|amine",
+        "N|-|meth|yl|-|2|-|pyridin|-|2|-|yl|eth|an|amine", "2|-|phen|yl|eth|an|amine", "N|-|meth|yl|-|1|-|phen|yl|prop|an|-|2|-|amine", "(|2|,|4|-|di|chloro|phen|yl|)|meth|an|amine",
+        "1|-|phen|yl|prop|an|-|2|-|amine", "1|-|(|4|-|chloro|phen|yl|)|prop|an|-|2|-|amine", "1|-|(|4|-|chloro|phen|yl|)|-|N|-|meth|yl|prop|an|-|2|-|amine",
+        "N|,|2|-|di|meth|yl|-|1|-|phen|yl|prop|an|-|2|-|amine", "1|-|(|2|-|meth|oxy|phen|yl|)|-|N|-|meth|yl|prop|an|-|2|-|amine", "2|-|meth|yl|-|1|-|phen|yl|prop|an|-|2|-|amine",
+        "2|-|phen|yl|cyclo|prop|an|-|1|-|amine", "|(|2|-|meth|yl|phen|yl|)|meth|an|amine", "1|-|phen|yl|eth|an|amine", "1|-|cyclo|hex|yl|-|N|-|meth|yl|prop|an|-|2|-|amine",
+        "N|-|meth|yl|-|1|-|phen|yl|meth|an|amine", "1|-|cyclo|pent|yl|prop|an|-|2|-|amine", "N|-|eth|yl|-|1|-|phen|yl|prop|an|-|2|-|amine", "1|-|(|4|-|fluoro|phen|yl|)|prop|an|-|2|-|amine",
+        "2|-|phen|yl|prop|an|-|1|-|amine", "N|-|meth|yl|-|2|-|phen|yl|eth|an|amine", "N|,|N|-|di|meth|yl|-|1|-|phen|yl|prop|an|-|2|-|amine", "2|-|cyclo|hex|yl|eth|an|amine",
+        "N|-|meth|yl|-|2|-|phen|yl|prop|an|-|1|-|amine", "N|-|benz|yl|-|2|-|chloro|eth|an|amine", "1|-|(|2|-|chloro|phen|yl|)|-|2|-|meth|yl|prop|an|-|2|-|amine", "N|-|benz|yl|cyclo|prop|an|amine",
+        "N|-|meth|yl|-|2|-|phen|oxy|eth|an|amine", "2|-|(|furan|-|2|-|yl|)|-|N|,|N|-|di|meth|yl|eth|an|amine", "2|-|cyclo|hex|yl|-|N|-|meth|yl|eth|an|amine", "2|-|(|furan|-|2|-|yl|)|prop|an|-|2|-|amine",
+        "1|-|cyclo|pent|-|2|-|en|-|1|-|yl|-|N|-|meth|yl|prop|an|-|2|-|amine", "1|-|cyclo|pent|-|2|-|en|-|1|-|yl|prop|an|-|2|-|amine", "N|-|(|furan|-|2|-|yl|meth|yl|)|eth|an|amine",
+        "(|3|-|meth|yl|phen|yl|)|meth|an|amine", "(|2|-|chloro|phen|yl|)|meth|an|amine", "(|2|-|fluoro|phen|yl|)|meth|an|amine", "1|-|(|2|-|chloro|phen|yl|)|-|N|-|meth|yl|meth|an|amine",
+        "(|3|-|fluoro|phen|yl|)|meth|an|amine", "(|4|-|fluoro|phen|yl|)|meth|an|amine", "(|1|-|phen|yl|cyclo|prop|yl|)|meth|an|amine", "2|-|(|2|-|meth|oxy|phen|yl|)|eth|an|amine", "cyclo|hex|yl|meth|an|amine",
+        "2|-|(|cyclo|hex|en|-|1|-|yl|)|eth|an|amine", "cyclo|pent|yl|meth|an|amine", "2|-|(|2|,|5|-|di|meth|oxy|phen|yl|)|-|N|-|meth|yl|eth|an|amine", "2|-|(|2|-|chloro|phen|yl|)|eth|an|amine",
+        "N|-|benz|yl|eth|an|amine", "(|2|-|chloro|-|6|-|fluoro|phen|yl|)|meth|an|amine", "N|-|eth|yl|-|1|-|(|4|-|meth|oxy|phen|yl|)|prop|an|-|2|-|amine"
+    ],    
 
     "benzodioxole": ["5|-|meth|oxy|-|1|,|3|-|benzo|dio|xole", "2|,|2|-|di|deuterio|-|5|-|meth|oxy|-|1|,|3|-|benzo|dio|xole",
         "5|-|(|meth|oxy|meth|oxy|)|-|1|,|3|-|benzo|dio|xole", "4|,|5|-|di|meth|oxy|-|1|,|3|-|benzo|dio|xole", "4|,|7|-|di|meth|oxy|-|1|,|3|-|benzo|dio|xole",
@@ -224,6 +282,26 @@
         "prop|-|2|-|en|al", "but|-|3|-|en|al", "3|-|bromo|-|2|-|meth|yl|prop|ene", "1|-|eth|oxy|prop|-|1|-|ene","N|,|N|-|di|meth|yl|prop|-|2|-|en|-|1|-|amine",
         "hex|-|5|-|en|-|1|-|amine", "2|-|fluoro|prop|-|2|-|en|-|1|-|ol", "prop|ane|-|1|,|3|-|di|ol", "2|-|prop|an|-|2|-|yl|oxy|but|ane",
         "2|-|prop|an|-|2|-|yl|oxy|but|ane", "eth|en|oxy|meth|oxy|eth|ene", "di|eth|oxy|meth|oxy|eth|ane", "2|-|(|prop|an|-|2|-|yl|oxy|meth|oxy|)|prop|ane"
-    ]
+    ],
 
+    "isomer_big": [ "(|2|E|,|4|E|,|6|Z|,|8|E|)|-|3|,|7|-|di|meth|yl|-|9|-|(|2|,|6|,|6|-|tri|meth|yl|cyclo|hex|en|-|1|-|yl|)|non|a|-|2|,|4|,|6|,|8|-|tetra|en|oic acid",
+        "(|2|E|,|4|E|,|6|Z|,|8|E|)|-|3|,|7|-|di|meth|yl|-|9|-|(|2|,|6|,|6|-|tri|meth|yl|-|1|-|cyclo|hex|en|yl|)|non|a|-|2|,|4|,|6|,|8|-|tetra|en|oic acid"
+    ],
+
+    "quinoline": [ "quinolin|-|6|-|amine", "quinolin|-|3|-|amine", "quinolin|-|7|-|amine", "7|-|meth|yl|quinolin|e|", "quinolin|-|6|-|ol", "quinolin|-|3|-|ol", "quinolin|-|2|-|amine"
+    ],
+
+    "naphthalene": [ "naphthalen|-|2|-|amine", "2|-|meth|yl|naphthalen|e", "2|-|chloro|naphthalen|e", "naphthalen|e|-|2|,|3|-|di|ol", "naphthalen|e|-|1|,|3|-|di|ol", "naphthalen|-|1|-|amine",
+        "naphthalen|-|2|-|ol", "1|-|bromo|naphthalen|-|2|-|ol", "naphthalen|e|-|1|,|2|-|di|ol", "1|,|3|-|di|meth|yl|naphthalen|e", "naphthalen|e|-|2|,|7|-|di|ol", "naphthalen|e|-|2|,|7|-|di|amine",
+        "1|-|chloro|naphthalen|-|2|-|ol", "2|,|3|,|6|-|tri|meth|yl|naphthalen|e", "naphthalen|e|-|1|,|2|-|di|amine"
+    ],
+
+    "aniline": [ "3|,|4|-|di|meth|oxy|aniline", "3|-|meth|oxy|-|4|-|non|oxy|aniline", "4|-|hex|oxy|-|3|-|meth|oxy|aniline", "4|-|hept|oxy|-|3|-|meth|oxy|aniline", "4|-|dec|oxy|-|3|-|meth|oxy|aniline",
+        "3|-|meth|oxy|-|4|-|oct|an|-|2|-|yl|oxy|aniline", "3|-|meth|oxy|-|4|-|(|3|-|phen|oxy|prop|oxy|)|aniline", "3|,|4|,|5|-|tri|meth|oxy|aniline", "4|-|but|oxy|-|3|-|meth|oxy|aniline",
+        "3|-|meth|oxy|-|4|-|prop|oxy|aniline", "3|-|meth|oxy|-|4|-|pent|oxy|aniline", "4|-|cyclo|pent|yl|oxy|-|3|-|meth|oxy|aniline", "3|-|meth|oxy|-|4|-|pent|-|4|-|en|oxy|aniline", "3|-|meth|oxy|-|4|-|oct|oxy|aniline",
+        "3|-|meth|oxy|-|4|-|[|3|-|(|4|-|meth|oxy|phen|oxy|)|prop|oxy|]|aniline", "3|-|meth|oxy|-|4|-|(|5|-|phen|oxy|pent|oxy|)|aniline", "3|-|meth|oxy|-|4|-|(|7|-|phen|oxy|hept|oxy|)|aniline"
+
+
+        
+    ]
 }
