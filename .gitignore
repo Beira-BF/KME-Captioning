@@ -3,3 +3,5 @@ Word_Segmentation/files/test.json
 .gitignore~
 ..gitignore.un~
 Word_Segmentation/__pycache__
+Making_Datasets/PubChem_compound_text_ester.csv
+Making_Datasets/dataframe/df_train_label.csv
