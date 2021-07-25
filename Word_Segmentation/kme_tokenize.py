@@ -1,6 +1,6 @@
+import os
 import tensorflow as tf
 import numpy as np
-import os
 import requests
 
 class Segmentation():
@@ -12,15 +12,15 @@ class Segmentation():
 
             resp = req.get('https://firebasestorage.googleapis.com/v0/b/ysc-kme-25095.appspot.com/o/vocab.json?alt=media&token=34178ef2-9e62-491f-9fc5-bf2e30a33635')
             self.CHAR_INDICES = resp.json()
-        
+
         self.model = tf.keras.models.load_model('my_model.hdf5')
-        os.remove('my_model.hdf5')            
-        
+        os.remove('my_model.hdf5')
+
         self.look_back = 5
-        
+
     def create_dataset(self, text):
         """
-        take text with label (text that being defined where to cut ('|')) 
+        take text with label (text that being defined where to cut ('|'))
         and encode text and make label
         return preprocessed text & preprocessed label
         """
@@ -38,9 +38,9 @@ class Segmentation():
             target = 1 if before_char == '|' else 0  # y data
             X.append(data)
             y.append(target)
-        
+
         return np.array(X), tf.one_hot(y, 2)
-        
+
     def preprocessing_text(self, raw_text):
         """
         take unseen (testing) text and encode it with CHAR_DICT
@@ -58,7 +58,7 @@ class Segmentation():
     def predict(self, preprocessed_text):
         pred = self.model.predict(preprocessed_text)
         class_ = tf.argmax(pred, axis=-1).numpy()
-        
+
         return class_
 
     def word_segmentation(self, text):
@@ -67,11 +67,11 @@ class Segmentation():
         class_[0] = 1
         class_ = np.append(class_, 1)
 
-        cut_indexs = [i for i, value in enumerate(class_) if value == 1]
-        words = [text[cut_indexs[i]:cut_indexs[i+1]] for i in range(len(cut_indexs)-1)]
-        
+        cut_indexes = [i for i, value in enumerate(class_) if value == 1]
+        words = [text[cut_indexes[i]:cut_indexes[i+1]] for i in range(len(cut_indexes)-1)]
+
         join_word = '|'.join(words)
-        
+
         return words, join_word
 
 class Tokenizer:
@@ -83,7 +83,7 @@ class Tokenizer:
         self.num_sentences = 0
         self.longest_sentences = 0
         self.kme_segment = Segmentation()
-    
+
     def add_word(self, word):
         if word not in self.word2index:
 
@@ -96,7 +96,7 @@ class Tokenizer:
 
             # Word exists; increase word count
             self.word2count[word] += 1
-    
+
     def fit_on_text(self, sentences):
         for sentence in sentences:
 
@@ -108,7 +108,7 @@ class Tokenizer:
 
             for word in segmented_text:
                 self.add_word(word)       
-    
+
     def text_to_sequences(self, sentences, method_pad=None):
         sequences_arr = []
         for sentence in sentences:
@@ -131,7 +131,7 @@ class Tokenizer:
             sequences_padded = tf.keras.preprocessing.sequence.pad_sequences(sequences_arr, padding=method_pad)
             return sequences_padded
         return sequences_arr
-    
+
     def sequences_to_text(self, sequences):
         texts_arr = []
         for sequence in sequences:
@@ -140,4 +140,3 @@ class Tokenizer:
                 index_arr.append(self.index2word[index])
             texts_arr.append(index_arr)
         return texts_arr
-                
